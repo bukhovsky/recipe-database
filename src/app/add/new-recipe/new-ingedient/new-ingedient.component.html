@@ -1,0 +1,15 @@
+<form>
+    <div class="row">
+        <div class="col-6">  
+          
+            <input type="search" id="search" placeholder="Search...">
+            <ul id="options" *ngFor="let item of ingredientsList">
+                <li (click)="onSelected()"> {{item}}</li> 
+
+                
+              </ul>
+          </div>
+        <div class="col-6">q-ty</div>
+
+    </div>
+</form>

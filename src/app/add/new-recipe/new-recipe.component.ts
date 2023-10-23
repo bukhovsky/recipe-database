@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class NewRecipeComponent {
 
+  showNewIngredient = false;
+  completeIngedientGet(complete: boolean){
+    this.showNewIngredient = !complete;
+  }
+
+
 }

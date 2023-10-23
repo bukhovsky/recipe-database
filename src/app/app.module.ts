@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar/navbar.component';
 import { MenuComponent } from './menu/menu/menu.component';
 import { AddComponent } from './add/add/add.component';
 import { NewRecipeComponent } from './add/new-recipe/new-recipe.component';
+import { NewIngedientComponent } from './add/new-recipe/new-ingedient/new-ingedient.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NewRecipeComponent } from './add/new-recipe/new-recipe.component';
     NavbarComponent,
     MenuComponent,
     AddComponent,
-    NewRecipeComponent
+    NewRecipeComponent,
+    NewIngedientComponent
   ],
   imports: [
     BrowserModule,
